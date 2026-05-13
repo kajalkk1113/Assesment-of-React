@@ -4,7 +4,7 @@ function Calculate(){
     const[count,setCount]=useState(0)
     const message ="Maximum Limit Reached"
     function Increase() {
-        count<20?setCount(count+5):message
+        setCount(count+5)
     }
 
 
